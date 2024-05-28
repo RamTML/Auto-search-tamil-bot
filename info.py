@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '19553188'))
 API_HASH = environ.get('API_HASH', '52c7a1c621bc52258f55961d65028bb0')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7161247250:AAFDCMeBJLbCRSwHQwBoLyhtZcoT5iHp-II")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6528846447:AAFrxj-tDEbkpVIygoQbIPc7eKuGUCi2rnQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/ee29e1b75d210ddd1fc2b.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/611987fc0844735a41e63.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0afd4bb.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -43,8 +43,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Tamilmovprebot:6BUjMX6ZuLhQFmxo@cluster0.7p2b7ef.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Tamilmovprebot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Trendingtamila:x8coCxUZpEmnrMKB@cluster0.2hgammz.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "trendingtamila")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
